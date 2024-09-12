@@ -1,0 +1,18 @@
+{
+  "name": "Psykon",
+  "version": "1.0.0",
+  "description": "Psykon API Documentation",
+  "order": [
+    "Main",
+    "Admin",
+    "User",
+    "Person",
+    "Psychiatrist",
+    "Organization"
+  ],
+  "template": {
+    "withCompare": true,
+    "withGenerator": true
+  },
+  "url": "http://api.psykon.ca/api"
+}

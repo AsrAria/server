@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block info %}
+  <h2 style="text-align: center; font-size: 25px;">
+   Receipt
+  </h2>
+
+  <p style="text-align: center; font-size: 16px; padding-top: 20px">
+    Payment result:
+    {% if payment['status'] == 1 %}
+      Payment successful
+    {% else %}
+      Payment failed
+    {% endif %}
+    <br>
+    your tracking number is {{ payment['tracking_id'] }} Please save your tracking number.
+    <br>
+    {{ message }}
+    <br>
+  <p>
+
+  <div class="text-center pay-description">
+      <a p style="text-align: center; font-size: 16px" class="btn btn-info" href={{ "https://panel.psykon.ca" }}>Return to App</a>
+  </div>
+{% endblock %}

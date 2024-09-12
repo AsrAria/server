@@ -1,0 +1,132 @@
+body{
+	background-color: #f0f0f0;
+	direction: ltr;
+	text-align: center;
+	font-size: 1.1em;
+}
+.logo-image{
+	width: 14%;
+	min-width: 150px;
+	max-width: 400px;
+	margin-top: 10%;
+	border-radius: 20%;
+}
+footer{
+	margin-top: 5%;
+}
+.container{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.data-box{
+	padding: 10px;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 300px;
+	max-width: 400px;
+	border-radius: 7px;
+}
+.pay-btn{
+	font-size: 1.3em;
+	margin-top: 30px;
+	width: 70%;
+	border: none;
+	background-color: #29aae3;
+	border-radius: 5px;
+	color: #f0f0f0
+}
+label{
+	margin-top: 10px;
+}
+p{
+	margin: 10px;
+}
+table{
+	width: 100%;
+}
+
+body{
+	background-color: #f0f0f0;
+	direction: ltr;
+}
+
+.pay-title{
+	font-size: 23px;
+	margin: 30px 0px;
+}
+
+.pay-description{
+	font-size: 18px;
+	margin: 20px 0px;
+}
+
+.logo-image{
+	display: block;
+	height: auto;
+	max-width: 150px;
+	margin-top: 20px;
+}
+
+.copyright{
+	text-align: center;
+	position: relative;
+	bottom: 20px;
+	width: 100%;
+}
+
+@media (min-width: 500px) {
+	body{
+		font-size: 3em;
+	}
+	.logo-image{
+		display: block;
+		height: auto;
+		max-width: 200px;
+		margin-top: 20px;
+	}
+	h2{
+		font-size: 3.3em;
+	}
+	.btn{
+		font-size: 1.3em;
+	}
+}
+
+@media (min-width: 800px) {
+	body{
+		font-size: 2.2em;
+	}
+	.logo-image{
+		display: block;
+		height: auto;
+		max-width: 200px;
+		margin-top: 20px;
+	}
+	h2{
+		font-size: 2.5em;
+	}
+	.btn{
+		font-size: 1.3em;
+	}
+}
+
+@media (min-width: 1000px) {
+	body{
+		font-size: 1.5em;
+	}
+	.logo-image{
+		display: block;
+		height: auto;
+		max-width: 150px;
+		margin-top: 20px;
+	}
+	h2{
+		font-size: 1.5em;
+	}
+	.btn{
+		font-size: 1em;
+	}
+}
+

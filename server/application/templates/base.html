@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <!-- SITE TITLE -->
+  <title>Psykon</title>
+
+  <!-- Style -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='payment/css/bootstrap.css', _external=True) }}">  
+  <link rel="stylesheet" href="{{ url_for('static', filename='payment/css/font.css', _external=True) }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='payment/css/payment.css', _external=True) }}">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 col-sm-12">
+        <img class="center-block logo-image" src="{{ url_for('static', filename='payment/images/icon.png', _external=True) }}" alt="">
+        {% block info %}{% endblock %}
+      </div>
+    </div>
+  </div>
+
+  <footer>
+
+    <div class="container copyright">
+
+      <p>
+        All rights reserved in.
+        <a href="http://app-star.app/">Psykon</a>
+      </p>
+
+    </div>
+  </footer>
+  {% block script %}{% endblock %}
+</body>
+
+</html>
